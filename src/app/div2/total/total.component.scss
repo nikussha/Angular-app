@@ -1,0 +1,13 @@
+.total{
+    margin-top: 55px;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    .number{
+        position: absolute;
+        left: 70%;
+        h1{
+            color: #26C2AE;
+        }
+    }
+}

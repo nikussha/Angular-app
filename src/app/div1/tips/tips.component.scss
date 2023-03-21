@@ -1,0 +1,29 @@
+.tips{
+    display: flex;
+    flex-direction: column;
+    width:25vw;
+    height: auto;
+    margin: 55px auto;
+    .tip-btns-div{
+        margin-top: 20px;
+        width: 25vw;
+        display: grid;
+        grid-template-columns:7vw 7vw 7vw;
+        grid-gap:10px;
+        
+        .tip-buttons{
+            height: 50px;
+            
+        }
+       #input{
+        width: 7vw;
+        height: 50px;
+        padding: 20px;
+       }
+    }
+}
+
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}

@@ -1,0 +1,17 @@
+<div class="tips">
+  <h3>Select Tip%</h3>
+  <div class="tip-btns-div">
+    <button class="tip-buttons" (click)="clickbtn(5)">5%</button>
+    <button class="tip-buttons" (click)="clickbtn(10)">10%</button>
+    <button class="tip-buttons" (click)="clickbtn(15)">15%</button>
+    <button class="tip-buttons" (click)="clickbtn(25)">25%</button>
+    <button class="tip-buttons" (click)="clickbtn(50)">50%</button>
+    <input
+      placeholder="Custom"
+      id="input"
+      type="number"
+      [formControl]="formval"
+      (keyup)="passvalue()"
+    />
+  </div>
+</div>

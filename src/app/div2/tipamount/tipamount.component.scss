@@ -1,0 +1,20 @@
+.tip-amount{
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    margin-top: 30px;
+
+    .text{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        
+    }
+    .tip{
+        position: absolute;
+        left: 70%;
+    }
+        h1 {
+            color: #26C2AE;
+    }
+}

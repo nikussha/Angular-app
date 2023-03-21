@@ -1,0 +1,33 @@
+/* You can add global styles to this file, and also import other style files */
+*{
+    box-sizing: border-box;
+    padding:0 ;
+    margin: 0;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: #5E7A7D;
+    letter-spacing: 2px;
+    h3{
+        margin-bottom: 3px;
+        
+    }
+    button{
+        font-size: 19px;
+        font-weight: 700;
+        color: #FFFFFF;
+        background-color: #00474B;
+        border-radius: 5px;
+        border-color:#00474B;
+    }
+    input{
+        background-color:#F3F9FA;
+        border: 0px;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        font-size: 16px;
+        font-weight: 600;
+    }
+    ::placeholder{
+        color:#00474B ;
+        font-size: 17px;
+        font-weight: 600;
+    }
+}

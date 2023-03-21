@@ -1,0 +1,14 @@
+<div class="bills">
+  <h3>Bill</h3>
+  <div class="input">
+    <form>
+      <input
+        id="input"
+        type="number"
+        placeholder="$"
+        [formControl]="inputval"
+        (keyup)="detectchange($event)"
+      />
+    </form>
+  </div>
+</div>

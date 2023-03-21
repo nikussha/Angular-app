@@ -1,0 +1,16 @@
+.numofpeople{
+    width: 25vw;
+    position: relative;
+    input{
+        position: absolute;
+        margin-top: 10px;
+        width: 90%;
+        height: 40px;
+        padding: 20px;
+    }
+
+}
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}

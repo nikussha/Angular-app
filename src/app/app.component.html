@@ -1,0 +1,17 @@
+<div class="background-div">
+  <h1 style="padding: 35px 45vw">SPLITTER</h1>
+  <div class="wrapper">
+    <div class="div1">
+      <app-bills #bills></app-bills>
+      <app-tips #tips></app-tips>
+      <app-peoplenum #people></app-peoplenum>
+    </div>
+    <div class="div2">
+      <app-tipamount></app-tipamount>
+      <app-total></app-total>
+      <div class="reset">
+        <button (click)="resetinfo()">RESET</button>
+      </div>
+    </div>
+  </div>
+</div>

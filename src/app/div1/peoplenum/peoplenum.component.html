@@ -1,0 +1,10 @@
+<div class="numofpeople">
+  <h3>Number of People</h3>
+  <input
+    type="number"
+    min="1"
+    [defaultValue]="1"
+    [formControl]="numofpeople"
+    (keyup)="detectchange($event)"
+  />
+</div>
